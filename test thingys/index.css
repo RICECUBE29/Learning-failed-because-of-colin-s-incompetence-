@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: grey;
+    color: white;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+}
+
+#hidden {
+    color: black;
+    background: black;
+    user-select: none;
+}
+
+#hidden:hover {
+    color: white;
+    background: initial;
+}
